@@ -319,25 +319,25 @@
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="ACC4E9"/>
+        <option name="FOREGROUND" value="D1AA73"/>
         <option name="FONT_TYPE" value="2"/>
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ACC4E9"/>
+        <option name="FOREGROUND" value="D1AA73"/>
         <option name="FONT_TYPE" value="2"/>
       </value>
     </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ACC4E9"/>
+        <option name="FOREGROUND" value="D1AA73"/>
         <option name="FONT_TYPE" value="2"/>
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="ACC4E9"/>
+        <option name="FOREGROUND" value="D1AA73"/>
         <option name="FONT_TYPE" value="2"/>
       </value>
     </option>
