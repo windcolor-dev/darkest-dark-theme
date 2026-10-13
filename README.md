@@ -1,6 +1,10 @@
 # Darkest Dark Theme for IntelliJ (Best UI)
 
-![demo](screenshots/demo.png)
+<p align="center">
+  <img src="screenshots/before.png" width="49%" alt="Before">
+  <img src="screenshots/demo.png" width="49%" alt="Darkest Dark">
+</p>
+<p align="center">Comparison</p>
 
 The "Darkest Dark" theme for the Eclipse IDE by Genuitec is the best color scheme I've ever used! Unfortunately, the extension no longer runs and appears unmaintained. It also does not exist on IntelliJ. 
 
