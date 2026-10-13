@@ -1,0 +1,7 @@
+<idea-plugin>
+  <extensions defaultExtensionNs="com.intellij">
+    <annotator language="JAVA" implementationClass="com.windpvp.darkestdark.DarkestDarkJavaAnnotator"/>
+    <daemon.highlightInfoFilter implementation="com.windpvp.darkestdark.DarkestDarkHighlightInfoFilter"/>
+    <colorSettingsPage implementation="com.windpvp.darkestdark.DarkestDarkColorSettingsPage"/>
+  </extensions>
+</idea-plugin>

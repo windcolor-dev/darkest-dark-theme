@@ -2,12 +2,13 @@
   <metaInfo>
     <property name="ide">idea</property>
     <property name="originalScheme">Darkest Dark</property>
+    <property name="darkestDarkHighlighting">true</property>
   </metaInfo>
   <option name="FONT_SCALE" value="1.0"/>
   <option name="EDITOR_FONT_SIZE" value="13"/>
   <option name="EDITOR_FONT_NAME" value="Consolas"/>
   <colors>
-    <option name="GUTTER_BACKGROUND" value="1B1F22"/>
+    <option name="GUTTER_BACKGROUND" value="1C1F22"/>
     <option name="LINE_NUMBERS_COLOR" value="CCCCCC"/>
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="E6E6E6"/>
     <option name="CARET_ROW_COLOR" value="282C2D"/>
@@ -22,9 +23,9 @@
     <option name="SELECTED_TEARLINE_COLOR" value="434646"/>
     <option name="METHOD_SEPARATORS_COLOR" value="2C3135"/>
     <option name="FOLDED_TEXT_BORDER_COLOR" value="434646"/>
-    <option name="CONSOLE_BACKGROUND_KEY" value="1B1F22"/>
-    <option name="DOCUMENTATION_COLOR" value="1B1F22"/>
-    <option name="LOOKUP_COLOR" value="1B1F22"/>
+    <option name="CONSOLE_BACKGROUND_KEY" value="1C1F22"/>
+    <option name="DOCUMENTATION_COLOR" value="1C1F22"/>
+    <option name="LOOKUP_COLOR" value="1C1F22"/>
     <option name="NOTIFICATION_BACKGROUND" value="2C3135"/>
     <option name="ScrollBar.Mac.thumbColor" value="6C6D6D"/>
     <option name="ScrollBar.thumbColor" value="6C6D6D"/>
@@ -32,10 +33,29 @@
     <option name="ScrollBar.Mac.Transparent.thumbColor" value="6C6D6D"/>
   </colors>
   <attributes>
+    <option name="DARKEST_DARK_PACKAGE_NAME">
+      <value>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
+      </value>
+    </option>
+    <option name="DARKEST_DARK_IMPORT_NAME">
+      <value>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
+      </value>
+    </option>
+    <option name="DARKEST_DARK_TYPE_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="BFA4A4"/>
+        <option name="FONT_TYPE" value="0"/>
+      </value>
+    </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
-        <option name="BACKGROUND" value="1B1F22"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="BACKGROUND" value="1C1F22"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
@@ -94,301 +114,394 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="B7C731"/>
+        <option name="FOREGROUND" value="D9E577"/>
         <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="JAVA_DOC_TAG">
       <value>
-        <option name="FOREGROUND" value="B7C731"/>
+        <option name="FOREGROUND" value="D9E577"/>
         <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="B7C731"/>
+        <option name="FOREGROUND" value="D9E577"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="B7C731"/>
+        <option name="FOREGROUND" value="D9E577"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="E0AF05"/>
+        <option name="FOREGROUND" value="FFC600"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="JAVA_STRING">
       <value>
-        <option name="FOREGROUND" value="E0AF05"/>
+        <option name="FOREGROUND" value="FFC600"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="E0AF05"/>
+        <option name="FOREGROUND" value="FFC600"/>
         <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="JAVA_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="E0AF05"/>
+        <option name="FOREGROUND" value="FFC600"/>
         <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="69983E"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="JAVA_NUMBER">
       <value>
         <option name="FOREGROUND" value="69983E"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="A8A9A9"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="JAVA_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="A8A9A9"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_BRACES">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_COMMA">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="JAVA_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="JAVA_COMMA">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="JAVA_DOT">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="JAVA_PARENTH">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="JAVA_BRACES">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="JAVA_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="AF4A4B"/>
+        <option name="FOREGROUND" value="D25252"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="AF4A4B"/>
+        <option name="FOREGROUND" value="D25252"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="9D82C2"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="AF4A4B"/>
+        <option name="FOREGROUND" value="D25252"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="INTERFACE_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="9D82C2"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="38A8E6"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="ENUM_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="AF4A4B"/>
+        <option name="FOREGROUND" value="7FB347"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="AF4A4B"/>
+        <option name="FOREGROUND" value="D25252"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="BFA4A4"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="FFFFFF"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
         <option name="FOREGROUND" value="ACC4E9"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="METHOD_DECLARATION_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ACC4E9"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="CONSTRUCTOR_DECLARATION_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ACC4E9"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="FFFFFF"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="METHOD_CALL_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="FFFFFF"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="STATIC_METHOD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
-        <option name="FONT_TYPE" value="2"/>
+        <option name="FOREGROUND" value="FFFFFF"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="ACC4E9"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ACC4E9"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="INSTANCE_FINAL_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ACC4E9"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="D1AA73"/>
-        <option name="FONT_TYPE" value="2"/>
+        <option name="FOREGROUND" value="EFC090"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="D1AA73"/>
-        <option name="FONT_TYPE" value="2"/>
+        <option name="FOREGROUND" value="EFC090"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="D1AA73"/>
-        <option name="FONT_TYPE" value="2"/>
+        <option name="FOREGROUND" value="EFC090"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="D1AA73"/>
-        <option name="FONT_TYPE" value="2"/>
+        <option name="FOREGROUND" value="EFC090"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="6895DD"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="6895DD"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="6895DD"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
       <value>
         <option name="FOREGROUND" value="6895DD"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="6895DD"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="6895DD"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="E6E6E6"/>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="A8A9A9"/>
+        <option name="FOREGROUND" value="FFFFFF"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="A8A9A9"/>
+        <option name="FOREGROUND" value="FFFFFF"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="A8A9A9"/>
+        <option name="FOREGROUND" value="FFFFFF"/>
+        <option name="FONT_TYPE" value="0"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STATIC_METHOD">
+      <value>
+        <option name="FOREGROUND" value="FFFFFF"/>
+        <option name="FONT_TYPE" value="0"/>
+      </value>
+    </option>
+    <option name="STATIC_METHOD_IMPORTED_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="FFFFFF"/>
+        <option name="FONT_TYPE" value="0"/>
+      </value>
+    </option>
+    <option name="INHERITED_METHOD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="FFFFFF"/>
+        <option name="FONT_TYPE" value="0"/>
+      </value>
+    </option>
+    <option name="ABSTRACT_METHOD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="FFFFFF"/>
+        <option name="FONT_TYPE" value="0"/>
+      </value>
+    </option>
+    <option name="CONSOLE_NORMAL_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="D8D8D8"/>
+        <option name="FONT_TYPE" value="0"/>
+      </value>
+    </option>
+    <option name="DEPRECATED_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="D8D8D8"/>
+        <option name="EFFECT_TYPE" value="3"/>
+        <option name="FONT_TYPE" value="0"/>
+      </value>
+    </option>
+    <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="D8D8D8"/>
+        <option name="EFFECT_TYPE" value="3"/>
+        <option name="FONT_TYPE" value="0"/>
       </value>
     </option>
   </attributes>
