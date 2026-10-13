@@ -1,0 +1,12 @@
+<idea-plugin>
+  <id>local.darkest-dark-theme</id>
+  <name>Darkest Dark (Best UI Theme)</name>
+  <version>1.0.3</version>
+  <vendor>windcolor-dev</vendor>
+  <description>Best UI theme ever! (Remake of Eclipse's Darkest Dark (DevStyle))</description>
+  <idea-version since-build="233"/>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="local.darkest-dark-theme" path="/darkest_dark.theme.json"/>
+  </extensions>
+</idea-plugin>
